@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazing Spa</title>
+</head>
+<body>
+    <div>
+        <header>
+            <img src="assets/images/su_banner.gif" alt="Su_banner">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Our Services</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <div>
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <div>
+                    <label for="firstname">First Name<sup>*</sup> :</label>
+                    <input type="text" id="firstname" name="firstname" required maxlength="25">
+                </div>
+
+                <div>
+                    <label for="name">Last Name<sup>*</sup> :</label>
+                    <input type="text" id="name" name="name" required maxlength="25">
+                </div>
+
+                <div>
+                    <label for="mail">Email<sup>*</sup> :</label>
+                    <input type="email" id="mail" name="mail" required maxlength="35">
+                </div>
+
+                <div>
+                    <label for="check">Please the music genre(s) that you like:</label>
+
+                    <div>
+                        <input type="checkbox" id="classic" name="classic">
+                        <label for="classic">Classic</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="jazz" name="jazz">
+                        <label for="jazz">Jazz</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="blues" name="blues">
+                        <label for="blues">Blues</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="instrumental" name="instrumental">
+                        <label for="instruental">Instruental</label>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Your Message</legend>
+                
+                <div>
+                    <label for="select">How did you hear about us :</label>
+
+                    <select name="select" id="select">
+                        <option value="website">Our Website ?</option>
+                        <option value="friend">Friend</option>
+                        <option value="tv">Tv adv</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="option">Would you recommande us to a friend ?:</label>
+
+                    <div>
+                        <input type="radio" id="yes" name="option" value="yes" checked />
+                        <label for="yes">Yes</label>
+
+                        <input type="radio" id="no" name="option" value="no">
+                        <label for="no">No</label>
+
+                        <input type="radio" id="maybe" name="option" value="maybe">
+                        <label for="maybe">Maybe</label>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="option">Your request ?:</label>
+
+                    <div>
+                        <input type="text" id="request" name="request">
+                    </div>
+                </div>
+
+                <div>
+                    <input type="checkbox" id="signup" name="signup" checked>
+                    <label for="singup">Sign me up for email update</label>
+                </div>
+
+                <div>
+                    <button class="submit" type="button">Submit</button>
+                </div>
+            </fieldset>
+
+        </div>
+
+        <footer>
+            <p>Copyright © 2023 ILAC and EFREI Paris – HTML-CSS major lab-work - created by: Valentin Meltz - All rights reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
