@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazing Spa</title>
+    <link rel= "stylesheet" href="css/style.css">
 </head>
 <body>
-    <div>
+    <div class="container">
         <header>
-            <img src="assets/images/su_banner.gif" alt="Su_banner">
+            <img class="header-img" src="assets/images/su_banner.gif" alt="Su_banner">
             <nav>
-                <ul>
+                <ul class="nav-ul">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a class="nav-stickers" href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="about.html">About Us</a>
+                        <a class="nav-stickers" href="about.html">About Us</a>
                     </li>
                     <li>
-                        <a href="services.html">Our Services</a>
+                        <a class="nav-stickers" href="services.html">Our Services</a>
                     </li>
                     <li>
-                        <a href="contact.html">Contact Us</a>
+                        <a class="nav-stickers" href="contact.html">Contact Us</a>
                     </li>
                 </ul>
             </nav>
@@ -31,22 +32,22 @@
             <fieldset>
                 <legend>Personal Information</legend>
 
-                <div>
+                <div class="div-input">
                     <label for="firstname">First Name<sup>*</sup> :</label>
                     <input type="text" id="firstname" name="firstname" required maxlength="25">
                 </div>
 
-                <div>
+                <div class="div-input">
                     <label for="name">Last Name<sup>*</sup> :</label>
                     <input type="text" id="name" name="name" required maxlength="25">
                 </div>
 
-                <div>
+                <div class="div-input">
                     <label for="mail">Email<sup>*</sup> :</label>
                     <input type="email" id="mail" name="mail" required maxlength="35">
                 </div>
 
-                <div>
+                <div class="div-input">
                     <label>Please the music genre(s) that you like:</label>
 
                     <div>
@@ -74,7 +75,7 @@
             <fieldset>
                 <legend>Your Message</legend>
                 
-                <div>
+                <div class="div-input">
                     <label for="select">How did you hear about us :</label>
 
                     <select name="select" id="select">
@@ -85,7 +86,7 @@
                     </select>
                 </div>
 
-                <div>
+                <div class="div-input">
                     <label>Would you recommande us to a friend ?:</label>
 
                     <div>
@@ -100,7 +101,7 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="div-input">
                     <label>Your request ?:</label>
 
                     <div>
@@ -108,13 +109,13 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="div-input">
                     <input type="checkbox" id="signup" name="signup" checked>
                     <label>Sign me up for email update</label>
                 </div>
 
                 <div>
-                    <button class="submit" type="button">Submit</button>
+                    <input class="submit" type="submit" value="Register"></input>
                 </div>
             </fieldset>
 

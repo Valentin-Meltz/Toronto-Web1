@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+}
+
+html{
+    background-image: url("../assets/images/dark-wood2.jpg");
+}
+
+.container{
+    background-color: #fff0f5;
+    max-width: 1300px;
+    margin: 5px auto 5px auto;
+}
+
+header{
+    background-color: #deb887;
+    margin-right: auto;
+    margin-left: auto;  
+}
+
+.header-img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style: none;
+    padding: 5px;
+}
+
+.nav-stickers{
+    text-decoration-line: none;
+    color: #ffffff;
+    font-size: x-large;
+    text-transform: uppercase;
+}
+.nav-stickers:visited{
+    color: #f08080;
+}
+.nav-stickers:hover{
+    color: #000000;
+}
+.nav-stickers:active{
+    color: #ffffff;
+}
+
+h1, h2, h3{
+    color: #00008b;
+    margin: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+p{
+    margin-left: 5px;
+    font-family:Arial, Helvetica, sans-serif     ;
+}
+
+.img-center{
+    display: block;
+    margin: 5px auto 5px auto;
+    padding: 2px;
+    border-radius: 25px;
+    border: solid 2px #00008b;
+}
+
+.video-center{
+    display: block;
+    margin: 10px auto 10px auto;
+    border-radius: 25px;
+    border: solid 2px #00008b;
+}
+
+footer{
+    font-size: 80%;
+    background-color: #deb887;
+    text-align: center;
+    padding: 1px 0 1px 0;
+}
+
+table{
+    width: 800px;
+    margin: 10px auto 10px auto;
+    border: solid 2px #00008b;
+}
+
+td, th{
+    background-color: #bfb2b2;
+    padding: 2px 5px 2px 5px;
+}
+
+dt{
+    font-weight: bold;
+}
+
+dl{
+    padding: 5px;
+}
+
+table th, tfoot td{
+    text-transform: uppercase;
+    background-color: #deb887;
+    border: solid 1px #000000;
+}
+
+table td{
+    border: solid 1px #000000;
+}
+
+iframe{
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+fieldset{
+    width: 500px;
+    margin: 20px auto 20px auto;
+    background-color: #deb887;
+    border: solid 2px #00008b;
+    border-radius: 25px;
+}
+
+legend{
+    font-style: italic;
+    font-weight: bold;
+    margin: 0 10px 0 10px;
+    padding: 0 5px 0 5px;
+    border-radius: 25px;
+    background-color: #deb887;
+}
+
+input[type="submit"] {
+    background-color: #bfb2b2;
+    border: solid 1px #00008b;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+}
+
+input[type="submit"]:hover {
+    color: #ffffff;
+    background-color: #00008b;
+    cursor: pointer;
+}
+
+.div-input{
+    padding: 5px;
+}
+
+.nav-links{
+    text-decoration-line: none;
+    color: #f08080;
+    font-size: large;
+}
+
+.nav-links:hover{
+    color: #000000;
+}
+
+#nav-link{
+    padding: 10px;
+}
+
+#div-wiki{
+    padding: 10px 0 10px 0;
+}
